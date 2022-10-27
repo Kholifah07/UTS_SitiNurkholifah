@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Tipe">
+        <item>Yamaha Tipe Matic</item>
+        <item>Yamaha Tipe Sport</item>
+        <item>Honda Tipe Matic</item>
+        <item>Honda Tipe Sport</item>
+        <item>SUZUKI Tipe Matic</item>
+        <item>SUZUKI Tipe Sport</item>
+        <item>KAWASAKI Tipe Matic</item>
+        <item>KAWASAKI Tipe Sport</item>
+    </string-array>
+</resources>
