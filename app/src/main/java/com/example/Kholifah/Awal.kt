@@ -17,6 +17,7 @@ private const val ARG_PARAM2 = "param2"
  * digunakan untuk mebuat halaman fragmen awal
  */
 class Awal : Fragment() {
+    // membuat variabel binding
     private var _binding: FragmentAwalBinding? = null
 
     // This property is only valid between onCreateView and
@@ -35,7 +36,7 @@ class Awal : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-//naVigasi digunakan button untuk berpindah halamandri halam n awal ke leter list fragment.
+//naVigasi digunakan button untuk berpindah halamandri halamn awal ke leter list fragment.
         binding.button.setOnClickListener {
             findNavController().navigate(R.id.action_awal_to_letterListFragment)
         }

@@ -25,14 +25,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.Kholifah.databinding.FragmentWordListBinding
 
 /**
- * Displays a [RecyclerView] of words with search buttons to look them up.
+ *menampilkan RecyclerView dengan  mencari buttons untuk melihat.
  */
 class WordListFragment : Fragment() {
 
     /**
-     * Provides global access to these variables from anywhere in the app
-     * via DetailListFragment.<variable> without needing to create
-     * a DetailListFragment instance.
+     * mengatur variabel pada tapilan
      */
     companion object {
         val LETTER = "letter"
@@ -50,7 +48,7 @@ class WordListFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Retrieve the LETTER from the Fragment arguments
+        // digunakan untuk mengambil LETTER pada argument Fragment
         arguments?.let {
             letterId = it.getString(LETTER).toString()
         }
@@ -61,7 +59,7 @@ class WordListFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Retrieve and inflate the layout for this fragment
+        // digunakan untuk memngambil dan menerapkan  layout dari fragment
         _binding = FragmentWordListBinding.inflate(inflater, container, false)
         return binding.root
     }

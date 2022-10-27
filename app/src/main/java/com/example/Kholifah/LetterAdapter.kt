@@ -36,7 +36,7 @@ class LetterAdapter (context: Context):
     private val list = context.resources.getStringArray(R.array.Merk).toList()
 
     /**
-     * Provides a reference for the views needed to display items in your list.
+     * menampilkan data dari list
      */
     class LetterViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
         val button = view.findViewById<Button>(R.id.button_item)
@@ -47,7 +47,7 @@ class LetterAdapter (context: Context):
     }
 
     /**
-     * Creates new views with R.layout.item_view as its template
+     * membuat tampilan baru dengan  R.layout.item_view  sebagi template
      */
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LetterViewHolder {
         val layout = LayoutInflater
@@ -60,18 +60,18 @@ class LetterAdapter (context: Context):
     }
 
     /**
-     * Replaces the content of an existing view with new data
+     * menggati tampilan dengan data yang baru
      */
     override fun onBindViewHolder(holder: LetterViewHolder, position: Int) {
         val item = list.get(position)
         holder.button.text = item.toString()
 
-        // Assigns a [OnClickListener] to the button contained in the [ViewHolder]
+        // menmbahkan OnClickListener sebagai  button yang terhubung pada ViewHolder
         holder.button.setOnClickListener {
-            // Create an action from WordList to DetailList
+            // membuat kasi pada  WordList ke  DetailList
             // using the required arguments
             val action = LetterListFragmentDirections.actionLetterListFragmentToWordListFragment(letter = holder.button.text.toString())
-            // Navigate using that action
+            // Navigate digunakan sebagai action
             holder.view.findNavController().navigate(action)
         }
     }

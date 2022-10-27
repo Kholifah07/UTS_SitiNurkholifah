@@ -35,12 +35,12 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Get the navigation host fragment from this Activity
+        // mengambil navigation dari host fragment untuk  Activity
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
-        // Instantiate the navController using the NavHostFragment
+        // inisialisasi   navController dengan menggunkaan NavHostFragment
         navController = navHostFragment.navController
-        // Make sure actions in the ActionBar get propagated to the NavController
+        // membuat aksi di actionbar untuk disebarkan ke NavController
         setupActionBarWithNavController(navController)
     }
 

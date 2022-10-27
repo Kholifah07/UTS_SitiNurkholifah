@@ -1,13 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="Tipe">
-        <item>Yamaha Tipe Matic</item>
-        <item>Yamaha Tipe Sport</item>
-        <item>Honda Tipe Matic</item>
-        <item>Honda Tipe Sport</item>
-        <item>SUZUKI Tipe Matic</item>
-        <item>SUZUKI Tipe Sport</item>
-        <item>KAWASAKI Tipe Matic</item>
-        <item>KAWASAKI Tipe Sport</item>
+        <item>Yamaha Hybrid-connected(Tipe Matic)</item>
+        <item>Yamaha Gear 125(Tipe Matic)</item>
+        <item>Yamaha Freego(Tipe Matic)</item>
+        <item>Yamaha X-ride(Tipe Matic)</item>
+        <item>Yamaha Mio M3(Tipe Matic)</item>
+        <item>Yamaha Fino(Tipe Matic)</item>
+        <item>Yamaha R25 ABS(Tipe Sport)</item>
+        <item>Yamaha R25 (Tipe Sport)</item>
+        <item>Yamaha All new R15(Tipe Sport)</item>
+        <item>Yamaha R25 Movistar(Tipe Sport)</item>
+        <item>Yamaha All New R15 Movistar(Tipe Sport)</item>
+        <item>Yamaha R6 (Tipe Sport)</item>
+        <item>Yamaha All New R1 (Tipe Sport)</item>
+        <item>Yamaha All New R1M (Tipe Sport)</item>
+        <item>Yamaha MT-25(Tipe Sport)</item>
+        <item>Yamaha All New Vixion R(Tipe Sport)</item>
+        <item>Yamaha All New Vixion(Tipe Sport)</item>
+        <item>Yamaha Vmax(Tipe Sport)</item>
+        <item>Honda Beat(Tipe Matic)</item>
+        <item>Honda Beate Street(Tipe Matic)</item>
+        <item>Honda Vario 150 (Tipe Matic)</item>
+        <item>Honda PCX (Tipe Matic)</item>
+        <item>Honda Vario 160 (Tipe Matic)</item>
+        <item>Honda Vario 150 (Tipe Matic)</item>
+        <item>Honda SH 150 BK(Tipe Matic)</item>
+        <item>Honda Forza(Tipe Matic)</item>
+        <item>Honda Genio(Tipe Matic)</item>
+        <item>Honda ADV 160(Tipe Matic)</item>
+        <item>Honda PCX E:HEV(Tipe Matic)</item>
+        <item>Honda All New CBR (Tipe Sport)</item>
+        <item>Honda All New CB (Tipe Sport)</item>
+        <item>Honda New Sonic 150R (Tipe Sport)</item>
+        <item>Honda Verza 150 (Tipe Sport)</item>
+        <item>Honda Megapro FI(Tipe Sport)</item>
+        <item>Honda CBR 250RR(Tipe Sport)</item>
+        <item>Honda CB500F(Tipe Sport)</item>
+        <item>Honda CB500X(Tipe Sport)</item>
+        <item>Honda GLpro(Tipe Sport)</item>
+        <item>Honda Interceptor(Tipe Sport)</item>
+        <item>Suzuki Address Playful (Tipe Matic)</item>
+        <item>Suzuki Address FI Standard (Tipe Matic)</item>
+        <item>Suzuki Address FI Predator Series (Tipe Matic)</item>
+        <item>Suzuki NEX Crosserver (Tipe Matic)</item>
+        <item>Suzuki NEX II Elegant (Tipe Matic)</item>
+        <item>Suzuki NEX II Elegant Prenium (Tipe Matic)</item>
+        <item>Suzuki NEX II Standard(Tipe Matic)</item>
+        <item>Suzuki NEX II Fancy Dynamic(Tipe Matic)</item>
+        <item>Suzuki GSX 150 Bandit (Tipe Sport)</item>
+        <item>Suzuki GSX-R 150(Tipe Sport)</item>
+        <item>Suzuki Gixxer SF 250 (Tipe Sport)</item>
+        <item>Kawasaki J125 (Tipe Matic) </item>
+        <item>Kawasaki  W175 (Tipe Sport)</item>
+        <item>Kawasaki KLX 150 (Tipe Sport)</item>
+        <item>Kawasaki KSR Pro (Tipe Sport)</item>
+        <item>Kawasaki Ninja 250SL (Tipe Sport)</item>
+        <item>Kawasaki Ninja 250 (Tipe Sport)</item>
+        <item>Kawasaki Ninja ZX-25R (Tipe Sport)</item>
+        <item>Kawasaki Vulcan S (Tipe Sport)</item>
+        <item>Kawasaki ZH2 (Tipe Sport)</item>
+        <item>Kawasaki Ninja H2SX (Tipe Sport)</item>
     </string-array>
 </resources>

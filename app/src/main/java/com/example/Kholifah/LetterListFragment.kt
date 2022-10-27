@@ -40,7 +40,7 @@ class LetterListFragment : Fragment() {
     private val binding get() = _binding!!
 
     private lateinit var recyclerView: RecyclerView
-    // Keeps track of which LayoutManager is in use for the [RecyclerView]
+    //  mengatur  LayoutManager idengan menggunakan RecyclerView
     private var isLinearLayoutManager = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,7 +53,7 @@ class LetterListFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Retrieve and inflate the layout for this fragment
+        // mengatur dan mengembangkan  tata letak dengan menggunakan fragment
         _binding = FragmentLetterListBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
@@ -61,7 +61,7 @@ class LetterListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         recyclerView = binding.recyclerView
-        // Sets the LayoutManager of the recyclerview
+        //  mengatur LayoutManager dari recyclerview
         // On the first run of the app, it will be LinearLayoutManager
         chooseLayout()
     }
@@ -111,9 +111,9 @@ class LetterListFragment : Fragment() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.action_switch_layout -> {
-                // Sets isLinearLayoutManager (a Boolean) to the opposite value
+                // mengatur isLinearLayoutManager (a Boolean) to the opposite value
                 isLinearLayoutManager = !isLinearLayoutManager
-                // Sets layout and icon
+                // menagtur layout dan icon
                 chooseLayout()
                 setIcon(item)
 

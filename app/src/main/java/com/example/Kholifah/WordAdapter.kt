@@ -47,7 +47,7 @@ class WordAdapter(private val letterId: String, context: Context) :
             // Returns a collection that it has shuffled in place
             .shuffled()
             // Returns the first n items as a [List]
-            .take(5)
+            .take(25)
             // Returns a sorted version of that [List]
             .sorted()
     }
@@ -78,13 +78,13 @@ class WordAdapter(private val letterId: String, context: Context) :
     override fun onBindViewHolder(holder: WordViewHolder, position: Int) {
 
         val item = filteredWords[position]
-        // Needed to call startActivity
+        // untuk memanggil startActivity
         val context = holder.view.context
 
-        // Set the text of the WordViewHolder
+        //mengatur text pada WordViewHolder
         holder.button.text = item
 
-        //  digunakan untuk Assigns a [OnClickListener] to the button contained in the [ViewHolder]
+        //  digunakan untuk OnClickListener pada  button yang terhubung ke ViewHolder
         holder.button.setOnClickListener {
             val queryUrl: Uri = Uri.parse("${WordListFragment.SEARCH_PREFIX}${item}")
             val intent = Intent(Intent.ACTION_VIEW, queryUrl)
